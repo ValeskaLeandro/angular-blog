@@ -6,7 +6,7 @@
     margin: 1rem 0;
 }
 
-.small_card_image > img {
+.small_card_image > a > img {
     width: 250px;
     min-width: 250px;
     margin-right: 1rem;
