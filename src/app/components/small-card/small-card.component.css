@@ -1,0 +1,45 @@
+.container_small_card {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.small_card_image > img {
+    width: 250px;
+    min-width: 250px;
+    margin-right: 1rem;
+    
+}
+
+.small_card_title > h1 > a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}
+
+@media (max-width: 1200px){
+    .container_small_card {
+        width: 80vw;
+        margin: 1rem auto;
+    }
+    .small_card_title {
+        width: 100%;
+    }
+    .small_card_title > p > a{
+        font-size: 1rem;      
+    }
+}
+@media (max-width: 700px){
+
+    .small_card_image >img {
+        width: 150px;
+        min-width: 150px;
+    }
+    .small_card_title > p > a{
+        font-size: .8rem;      
+    }
+
+
+}

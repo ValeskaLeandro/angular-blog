@@ -1,0 +1,22 @@
+.container_menu_title {
+    color: white;
+    
+}
+.container_menu_title > h1 {
+    margin: .25rem 0;
+    font-size: 8rem;    
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 800px){
+    .container_menu_title > h1{
+        font-size: 5.5rem;
+    }
+}
+
+@media (max-width: 550px){
+    .container_menu_title > h1{
+        font-size: 3.5rem;
+    }
+}
+
