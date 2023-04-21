@@ -26,23 +26,3 @@
     color: grey;    
     text-decoration: none;
 }
-
-@media (max-width: 1200px){
-.container_big_card  {
-    width: 80vw;
-    height:100%;
-    margin: 0 auto;
-}
-.big_card_image img {
-    min-width: 80vw;
-}
-}
-
-@media (max-width: 700px) {
-    .big_card_title > h1 > a {
-        font-size: 1.25rem;
-    }
-    .big_card_description > p > a{
-        font-size: .7rem;
-    }
-}
